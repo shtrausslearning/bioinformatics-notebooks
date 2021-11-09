@@ -3,3 +3,4 @@
 ### Transcription Factor Binding Location Prediction File Listing 
 - <code>dnaseq_ohe.py</code> - One-Hot-Encoding of DNA sequences for ML applications
 - <code>plot_keras_history.py</code> - Function to plot Keras History, uses Plotly
+- code>keras_classifier.py</code> - Keras Binary CNN Classifier Model
