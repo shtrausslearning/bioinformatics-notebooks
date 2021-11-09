@@ -7,6 +7,7 @@
 
 ### Tested CNN Models
 - <code>baseline model</code> - DNA sequence model uses feature matrix constructed from OHE of the four bases in each segment sequence
+- <code>baseline model w/o sample weighting</code> - investigation of how much 
 - <code>accessibility model</code> - Accessibility of each dna segment added to the baseline feature matrix
 
 ### File Listings 
