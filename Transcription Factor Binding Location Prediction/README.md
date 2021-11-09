@@ -1,5 +1,6 @@
 ## Transcription Factor Binding Location Prediction 
 - [Kaggle Notebook](https://www.kaggle.com/shtrausslearning/transcription-factor-binding-location-prediction)
+- Status: Work in Progress
 
 ### Binding Site Location Prediction Model
 - Binary classification problem, aiming to predict transcription factor binding sides in the DNA
