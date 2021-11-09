@@ -6,6 +6,9 @@
 ### Binding Site Location Prediction Model
 - Binary classification problem, aiming to predict transcription factor binding sides in the DNA
 
+### Problem Relevance
+- Transcription Factor Binding affects Protein production 
+
 ### Tested CNN Models
 - <code>baseline model (BL)</code> - DNA sequence model uses feature matrix constructed from OHE of the four bases in each segment sequence
   - <code>BL(no sample weighting)</code> - investigation into whether class imbalance affects the model & was our assumption to weight samples correct
