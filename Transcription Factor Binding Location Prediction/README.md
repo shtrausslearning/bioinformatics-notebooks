@@ -3,6 +3,8 @@
 
 ### Binding Site Location Prediction Model
 - Binary classification problem, aiming to predict transcription factor binding sides in the DNA
+
+### Tested CNN Models
 - <code>baseline model</code> - DNA sequence model uses feature matrix constructed from OHE of the four bases in each segment sequence
 - <code>accessibility model</code> - Accessibility of each dna segment added to the baseline feature matrix
 
