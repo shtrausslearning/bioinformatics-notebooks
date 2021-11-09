@@ -1,4 +1,5 @@
-### Transcription Factor Binding Location Prediction | [Kaggle Notebook](https://www.kaggle.com/shtrausslearning/transcription-factor-binding-location-prediction)
+## Transcription Factor Binding Location Prediction 
+- [Kaggle Notebook](https://www.kaggle.com/shtrausslearning/transcription-factor-binding-location-prediction)
 
 ### File Listings 
 - <code>dnaseq_ohe.py</code> - One-Hot-Encoding of DNA sequences for ML applications
