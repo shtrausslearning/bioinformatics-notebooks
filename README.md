@@ -1,5 +1,5 @@
 # bioinformatics-notebooks
-- **Transcription Factor Binding Location Prediction** | ![](https://badgen.net/badge/ipynb/WIP/blue) - Binary Classification Problem, predicting TF DNA binding sites
+**Transcription Factor Binding Location Prediction** | ![](https://badgen.net/badge/ipynb/WIP/blue) - Binary Classification Problem, predicting TF DNA binding sites
 
 ![](https://img.shields.io/badge/<ipynb>-<WIP>-informational?style=flat&logo=appveyor&logoColor=white&color=2bbc8a)
 
