@@ -9,8 +9,8 @@
 
 ### Tested CNN Models
 - <code>baseline model (BL)</code> - DNA sequence model uses feature matrix constructed from OHE of the four bases in each segment sequence
-- <code>BL w/o sample weighting</code> - investigation into whether class imbalance affects the model & was our assumption to weight samples correct
-- <code>BL w/o dropout layer</code> - investigation into whether removing dropout will cause the cnn model to overfit in this problem
+- <code>BL(no sample weighting)</code> - investigation into whether class imbalance affects the model & was our assumption to weight samples correct
+- <code>BL(no dropout)</code> - investigation into whether removing dropout will cause the cnn model to overfit in this problem
 - <code>accessibility model</code> - Accessibility of each dna segment added to the baseline feature matrix
 
 ### File Listings 
