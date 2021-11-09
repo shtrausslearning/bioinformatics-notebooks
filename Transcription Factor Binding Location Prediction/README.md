@@ -12,4 +12,4 @@
 - <code>dnaseq_ohe.py</code> - One-Hot-Encoding of DNA sequences for ML applications
 - <code>plot_keras_history.py</code> - Function to plot Keras History, uses Plotly
 - <code>keras_classifier.py</code> - Keras Binary CNN Classifier Model
-- <code>transcription-factor-binding-location-prediction.ipynb</code> - Storage of latest version
+- <code>transcription-factor-binding-location-prediction.ipynb</code> - Storage of latest version (<code>v8</code>)
