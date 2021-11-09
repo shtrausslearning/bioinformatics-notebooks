@@ -2,7 +2,7 @@
 - [Kaggle Notebook](https://www.kaggle.com/shtrausslearning/transcription-factor-binding-location-prediction)
 
 ### Binding Site Location Prediction Model
-- Classification problem aiming to predict transcription factor binding to DNA 
+- Binary classification problem, aiming to predict transcription factor binding sides in the DNA
 - Problem is treated as a binary classification problem
 - <code>baseline model</code> - DNA sequence model uses feature matrix constructed from OHE of the four bases in each segment sequence
 - <code>accessibility model</code> - Accessibility of each dna segment added to the baseline feature matrix
