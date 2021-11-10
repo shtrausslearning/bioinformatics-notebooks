@@ -5,7 +5,7 @@
 - Compilation of various bioinformatics related operation classes in <code>wheeler</code> format
 - Stored in <code>pypi</code> format to make it easier to call commonly used functions in notebooks w/o pasting entire code
 - Wheeler package located @[bioinformatics](https://www.kaggle.com/shtrausslearning/bioinformatics) dataset /whl_packages/ on Kaggle
-- Package Name: <code>bioseq-0.0.1-py3-none-any.whl</code>
+- Package Name (or similar): <code>bioseq-0.0.1-py3-none-any.whl</code>
 
 #### "bioseq" Package Content:
 - <code>sequence</code> - single sequence <code>SQ()</code> storage class & methods
