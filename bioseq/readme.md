@@ -1,3 +1,3 @@
 
 ### bioseq package 
-compilation in <code>wheeler</code> format of bioinforatics related operations
+compilation in <code>wheeler</code> format of various bioinformatics related operations
