@@ -5,3 +5,5 @@
 - Compilation in <code>wheeler</code> of various bioinformatics related operation classes
 - Wheeler package located @[bioinformatics](https://www.kaggle.com/shtrausslearning/bioinformatics) dataset /whl_packages/ on Kaggle
 - Package Name: <code>bioseq-0.0.1-py3-none-any.whl</code>
+
+### Package Content:
