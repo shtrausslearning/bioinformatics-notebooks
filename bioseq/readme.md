@@ -7,7 +7,7 @@
 - Wheeler package located @[bioinformatics](https://www.kaggle.com/shtrausslearning/bioinformatics) dataset /whl_packages/ on Kaggle
 - Package Name (or similar): <code>bioseq-0.0.1-py3-none-any.whl</code>
 
-#### "bioseq" Package Content:
+#### "bioseq" package content:
 - <code>sequence</code> - single sequence <code>SQ()</code> storage class & methods
 - <code>read_sequence</code> - read FASTA format (single/multiple sequence) & store in <code>SQ()</code> format
 - <code>sequence_alignment</code> - pairwise & multiple sequence alignment & <code>bokeh</code> sequence visualisation, alignment storage, substitution matrix storage
