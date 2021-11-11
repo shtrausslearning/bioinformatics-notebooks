@@ -10,5 +10,5 @@
 #### "bioseq" package content:
 - <code>sequence</code> - single sequence <code>SQ()</code> storage class & methods
 - <code>read_sequence</code> - read FASTA format (single/multiple sequence) & store in <code>SQ()</code> format
-- <code>sequence_alignment</code> - pairwise & multiple sequence alignment & <code>bokeh</code> sequence visualisation, alignment & substitution matrix storage
+- <code>sequence_alignment</code> - pairwise & multiple sequence alignment & <code>bokeh</code> visualisation, alignment & substitution matrix storage
 - <code>biopython_blast</code> - Biopython incorporates a NCBI query module, class for result interpretation & visualisation
