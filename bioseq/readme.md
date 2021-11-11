@@ -13,7 +13,7 @@
 - <code>sequence_alignment</code> - pairwise & multiple sequence alignment & <code>bokeh</code> sequence visualisation, alignment storage, substitution matrix storage
 - <code>biopython_blast</code> - Biopython incorporates a good NCBI query module, so a class for result interpretation & visualisation /w Bokeh only
 
-##### "sequence" methods
+#### "sequence.py" methods
 
 <code>freq</code>
 - description: count frequency of each base in the biological sequence <br>
