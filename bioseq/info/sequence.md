@@ -1,4 +1,4 @@
-#### "sequence.py" methods
+## "sequence.py" methods
 
 <code>freq</code>
 - description: count frequency of each base in the biological sequence <br>
