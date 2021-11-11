@@ -15,9 +15,9 @@
 
 #### <code>sequence</code> methods:
 
-<code>freq</code> <br>
-description: count frequency of each base in the biological sequence <br>
-arguments: **compare**: <code>SQ</code> object
+- <code>freq</code> <br>
+- description: count frequency of each base in the biological sequence <br>
+- arguments: **compare**: <code>SQ</code> object
 
-<code>count_purines</code> <br>
-description: count purines  <code>A</code> & <code>G</code> sums & pyrimidines <code>C</code> & <code>T</code>
+- <code>count_purines</code> <br>
+- description: count purines  <code>A</code> & <code>G</code> sums & pyrimidines <code>C</code> & <code>T</code>
