@@ -8,7 +8,7 @@
 - Package Name (or similar): <code>bioseq-0.0.1-py3-none-any.whl</code>
 
 #### "bioseq" package content:
-- <code>sequence</code> - single sequence <code>SQ()</code> storage class & sequence comparison, protein conversion, motif discovery methods
+- <code>sequence</code> - single sequence <code>SQ()</code> storage class & sequence comparison, protein conversion, motif discovery, subsequence search
 - <code>read_sequence</code> - read FASTA format (single/multiple sequence) & store in <code>SQ()</code> format
 - <code>sequence_alignment</code> - pairwise & multiple sequence alignment & <code>bokeh</code> visualisation, alignment & substitution matrix storage
 - <code>biopython_blast</code> - Biopython incorporates a NCBI query module, class for result interpretation & visualisation
