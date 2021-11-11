@@ -22,3 +22,7 @@
 <code>count_purines</code>
 - description: count purines  <code>A&G</code> sum & pyrimidines <code>C&T</code>
 - arguments: **compare**: <code>SQ</code> object
+
+<code>groupfreq</code>
+- description: count di/tri nucleotide base frequencies
+- arguments: **compare**: list of <code>SQ</code> objects
