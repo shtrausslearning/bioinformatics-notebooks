@@ -30,3 +30,22 @@
 <code>gc</code>
 - description: GC base concentration 
 - arguments: **compare**: list of <code>SQ</code> objects
+
+<code>info</code> 
+- description: view sequence & sequence type information
+
+<code>abc</code>
+- description: view base character used in input sequence type
+
+<code>validate</code>
+- description: check if the sequence is valid
+
+<code>transcription</code>
+- description: change sequence type from DNA to RNA
+
+<code>reverse_comp</code>
+- description: get the reverse complement of the current DNA strand
+
+<code>get_protein</code>
+- description: get the list of putative proteins that start /w M & end with gap, sorted by size
+- arguments: **min_size**: minimum size of putative protein 
