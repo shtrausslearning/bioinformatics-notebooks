@@ -21,4 +21,4 @@
 - arguments: **compare**: <code>SQ</code> object
 
 <code>count_purines</code>
-- description: count purines  <code>A</code> & <code>G</code> sums & pyrimidines <code>C</code> & <code>T</code>
+- description: count purines  <code>A&G</code> sum & pyrimidines <code>C&T</code>
