@@ -26,3 +26,7 @@
 <code>groupfreq</code>
 - description: count di/tri nucleotide base frequencies
 - arguments: **compare**: list of <code>SQ</code> objects
+
+<code>gc</code>
+- description: GC base concentration 
+- arguments: **compare**: list of <code>SQ</code> objects
