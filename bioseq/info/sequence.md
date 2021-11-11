@@ -34,3 +34,7 @@
 <code>get_protein</code>
 - description: get the list of putative proteins that start /w M & end with gap, sorted by size
 - arguments: **min_size**: minimum size of putative protein 
+
+<code>find_pattern</code>
+- description: find specified pattern within the sequence (if it exists)
+- arguments: **pattern**: string form of pattern, **search_id**: type of search (first,all,overlap)
