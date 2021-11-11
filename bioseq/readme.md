@@ -15,3 +15,4 @@
 
 #### <code>sequence</code> methods
 - <code>freq</code> - count frequency of each base in the biological sequence
+  - arguments: compare: <code>SQ</code> object
