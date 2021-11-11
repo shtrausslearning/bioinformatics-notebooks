@@ -37,4 +37,4 @@
 
 <code>find_pattern</code>
 - description: find specified pattern within the sequence (if it exists)
-- arguments: **pattern**: string form of pattern, **search_id**: type of search (first,all,overlap)
+- arguments: **pattern**: string form of pattern, **search_id**: type of search (<code>first</code>,<code>all</code>,<code>overlap</code>)
