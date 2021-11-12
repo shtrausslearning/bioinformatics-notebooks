@@ -88,7 +88,20 @@ class SQ:
 	# abc - show sequence base alphabet
 	# validate - check if the sequence contains no errors
 
-	#####################################################			
+	#####################################################	
+	
+    @staticmethod
+    def colored(lseq):
+		
+		bcolors = {'A': '\033[92m','C': '\033[94m','G': '\033[93m',
+			   'T': '\033[91m','U': '\033[91m','reset': '\033[0;0m'}
+		tmpStr = ""
+		for nuc in lseq:
+	    	if nuc in bcolors:
+				tmpStr += bcolors[nuc] + nuc
+	    	else:
+				tmpStr += bcolors['reset'] + nuc
+		return tmpStr + '\033[0;0m'
 
 	def info(self):
 		if(self.seq_type is 'dna' or self.seq_type is 'rna'):
@@ -516,6 +529,7 @@ class SQ:
 			res.append(self.seq[positions[i]:positions[i+1]])
 		return res
 
+# class for Sequence related information storage
 class SQRec(SQ):
     
     def __init__(self,seq=None,
