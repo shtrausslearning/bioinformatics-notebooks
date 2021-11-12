@@ -284,7 +284,7 @@ class SQ:
 	#####################################################
 
 	# Complementary DNA Strands
-  # reverse_comp - reverse complement strand of input DNA
+  	# reverse_comp - reverse complement strand of input DNA
 
 	#####################################################
 	
@@ -398,7 +398,7 @@ class SQ:
 	#####################################################
 
 	# Finding Patterns in Sequence
-  # find_pattern - find index(ies) of particular pattern 
+  	# find_pattern - find index(ies) of particular pattern 
 
 	#####################################################
 	
@@ -471,7 +471,7 @@ class SQ:
 	#####################################################
 
 	# Cutting the Sequence
-  # cut_pattern - cut sequence based on particular pattern
+  	# cut_pattern - cut sequence based on particular pattern
 
 	#####################################################
 
