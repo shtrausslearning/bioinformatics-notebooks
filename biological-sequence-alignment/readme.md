@@ -1,7 +1,7 @@
 
 ### 1 | Background
 
-#### 1.1 | Cells
+#### 1.1 | CELLS
 
 Cells contain molecules which will reference to througout the notebook: **<mark style="background-color:#F1C40F;color:white;border-radius:5px;opacity:0.9">amino acids</mark>**, **<mark style="background-color:#F1C40F;color:white;border-radius:5px;opacity:0.9">nucleotides</mark>**, **<mark style="background-color:#F1C40F;color:white;border-radius:5px;opacity:0.9">proteins</mark>**
 
@@ -17,16 +17,11 @@ According to their internal structure, they can be divided into to major categor
 > - **<mark style="background-color:#F1C40F;color:white;border-radius:5px;opacity:0.9">Prokaryotic</mark>** cells : have no nucleus or internal membranes
 > - **<mark style="background-color:#F1C40F;color:white;border-radius:5px;opacity:0.9">Eukaryotic</mark>** cells : which have a defined <b>nucleus</b>, <b>internal membranes</b> and functional elements called <b>organelles</b>.
 
-
 - At a structural level, all cells are surrounded by a structure called cell <b>membrane</b> or <b>plasma membrane</b>. 
 - This <b>membrane</b> is permeable to molecules that cells need to absorb from or excrete to the outside medium.
 - Within the cell we find the <b>cytoplasm</b> (largely composed of water), which serves as the medium for the cell
 
-<div style="color:white;display:fill;border-radius:8px;
-            background-color:#03112A;font-size:150%;
-            letter-spacing:1.0px">
-    <p style="padding: 8px;color:white;"><b><b><span style='color:#F1A424'>1.2 |</span></b> DNA Strands</b></p>
-</div>
+#### 1.2 | DNA STRANDS
 
 #### <b><span style='color:#F1C40F'>COMPLEMENTARY STRANDS IN DNA</span></b>
 
