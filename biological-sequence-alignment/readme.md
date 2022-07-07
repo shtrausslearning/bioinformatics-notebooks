@@ -84,3 +84,28 @@ The cell also contains other components of varying complexity. Of importance:
 - Such an alignment also helps determine the relative positions of multiple species in an evolution tree, which is called a phylogenetic tree. <br>
     
 </div>
+
+#### 1.5 | BIOLOGICAL SEQUENCE EXAMPLES
+
+In notebook **[Biological Sequence Operations](https://www.kaggle.com/shtrausslearning/biological-sequence-operations)**, we looked at how to read biological sequence files, here are two examples of what they might look like:
+
+- An example of a **<mark style="background-color:#F1C40F;color:white;border-radius:5px;opacity:0.9">Nucleotide</mark>** Sequence:
+
+```
+ref|NC_005816.1|:4343-4780 pesticin immunity protein [Yersinia pestis biovar Microtus str. 91001]
+> ATGGGAGGGGGAATGATCTCAAAGTTATTTTGCTTGGCTCTCATATTTTTATCATCAAGTGGCCTTGCAG
+AAAAAAACACATATACAGCAAAAGACATCTTGCAAAACCTAGAATTAAATACCTTTGGCAATTCATTGTC
+TCATGGCATCTATGGGAAACAGACAACCTTCAAGCAAACCGAGTTTACAAATATTAAAAGCAACACCAAA
+AAACACATTGCACTTATCAATAAAGACAACTCATGGATGATATCATTAAAAATACTAGGAATTAAGAGAG
+ATGAGTATACTGTCTGTTTTGAAGATTTCTCTCTAATAAGACCGCCAACATATGTAGCCATACATCCTCT
+ACTTATAAAAAAAGTAAAATCTGGAAACTTTATAGTAGTGAAAGAAATAAAGAAATCTATCCCTGGTTGC
+ACTGTATATTATCATTAA
+```
+
+- An example of an **<mark style="background-color:#F1C40F;color:white;border-radius:5px;opacity:0.9">Amino Acid</mark>** Sequence:
+
+```
+gi|7525080|ref|NP_051037.1| ribosomal protein S12 [Arabidopsis thaliana]
+> MPTIKQLIRNTRQPIRNVTKSPALRGCPQRRGTCTRVYTITPKKPNSALRKVARVRLTSGFEITAYIPGI
+GHNLQEHSVVLVRGGRVKDLPGVRYHIVRGTLDAVGVKDRQQGRSKYGVKKPK
+```
