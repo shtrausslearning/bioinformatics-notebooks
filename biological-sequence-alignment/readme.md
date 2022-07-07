@@ -142,18 +142,18 @@ ACGTTAAAGCGTTACGTTGAAGCAATGGGAGGCAAATTAAGCTTGGATGTTGAGCTTCCTACAGGAAGGA
 GAGTAGCGTTCCATGTCTAA
 ```
 
-#### <b><span style='color:#F1C40F'>HOW TO TELL IF TWO SEQUENCES ARE HOMOLOGOUS?</span></b>
+#### <b><span style='color:#F1C40F'>How to tell if two sequences are homologous?</span></b>
 
-<code>HOMOLOGOUS</code> | **[Wikipedia](https://en.wikipedia.org/wiki/Homology_(biology))**
+**<code>HOMOLOGOUS</code>** | **[Wikipedia](https://en.wikipedia.org/wiki/Homology_(biology))**
 - Similar biological structures or sequences in different taxa are homologous if they are derived from a common ancestor
 - Thus, two sequences are said to be <code>homologous</code>, if they are both derived from a **common ancestral sequence**
 
-#### <b><span style='color:#F1C40F'>HOW SIMILAR ARE THESE SEQUENCES?</span></b>
+#### <b><span style='color:#F1C40F'>How similar are these sequences?</span></b>
 
 If we wanted to know how **closely they are related**, we could **make some assumptions** about their relation to one another:
-> - We are assuming that there exists an ancestry relation between the two sequences, which is based on this <code>sequence similarity</code>
-> - We can **generate a hypothesis** about the biological function of a sequence we are exploring, based on its <code>similarity</code> to another sequence, which already has a determined function
-> - Sequences that display a significant **degree of similarity** have a high probability of being <code>homologous</code>, **sharing similar functions**
-> - Two sequences that have a high order of similarity -> have a high probability of being <code>homologous</code>
-> - There doesn't seem to exist a point, at which this becomes a certainty & thus requires experimental verification
-> - The **higher the degree of similarity**, the more confident we can be that **two sequences are homologous** & thus share similar functions
+- We are assuming that there exists an ancestry relation between the two sequences, which is based on this <code>sequence similarity</code>
+- We can **generate a hypothesis** about the biological function of a sequence we are exploring, based on its <code>similarity</code> to another sequence, which already has a determined function
+- Sequences that display a significant **degree of similarity** have a high probability of being <code>homologous</code>, **sharing similar functions**
+- Two sequences that have a high order of similarity -> have a high probability of being <code>homologous</code>
+- There doesn't seem to exist a point, at which this becomes a certainty & thus requires experimental verification
+- The **higher the degree of similarity**, the more confident we can be that **two sequences are homologous** & thus share similar functions
