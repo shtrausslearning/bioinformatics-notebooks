@@ -112,14 +112,12 @@ GHNLQEHSVVLVRGGRVKDLPGVRYHIVRGTLDAVGVKDRQQGRSKYGVKKPK
 
 #### 1.6 | HOMOLOGY & SIMILARITY
 
-- Some key terms in **biological sequence alignment** : **<mark style="background-color:#F1C40F;color:white;border-radius:5px;opacity:0.9">Homology</mark>** & **<mark style="background-color:#F1C40F;color:white;border-radius:5px;opacity:0.9">Similarity</mark>**, we probably want to familiarise ourselves with them first
+- Some key terms in **biological sequence alignment** : <code>Homology<code> & <code>similarity</code>
+- First things first, we have two sequences, **DNA** sequences to be exact (here they are from file **<code>NC_005816.1</code>**):
 
+#### <b><span style='color:#F1C40F'>Select two sequences</span></b>
 
-First things first, we have two sequences, **<span style='color:#F1C40F'>DNA</span>** sequences to be exact (here they are from file **<span style='color:#F1C40F'>NC_005816.1</span>**):
-
-#### <b><span style='color:#F1C40F'>SELECT TWO SEQUENCES</span></b>
-
-**<mark style="background-color:#323232;color:white;border-radius:5px;opacity:0.9">Sequence #1</mark>**
+<code>Sequence #1</code>
 
 ```
 ref|NC_005816.1|:c8360-8088 hypothetical protein YP_pPCP10 [Yersinia pestis biovar Microtus str. 91001]
@@ -130,7 +128,7 @@ GTTCGATCCGATTCGTCGGGCTATCGTTCTTTGTGCAGGAGATAAAAGTAATGATAAGCGGTTTTATGAA
 AAACTGGTGCGTATAGCTGAGGATGAATTTACAGCACATCTGAACACACTGGAGAGCAAGTAA
 ```
 
-**<mark style="background-color:#323232;color:white;border-radius:5px;opacity:0.9">Sequence #2</mark>**
+<code>Sequence #2</code>
 
 ```
 ref|NC_005816.1|:c8088-7789 putative transcriptional regulator [Yersinia pestis biovar Microtus str. 91001]
@@ -145,7 +143,7 @@ GAGTAGCGTTCCATGTCTAA
 #### <b><span style='color:#F1C40F'>How to tell if two sequences are homologous?</span></b>
 
 **<code>HOMOLOGOUS</code>** | **[Wikipedia](https://en.wikipedia.org/wiki/Homology_(biology))**
-- Similar biological structures or sequences in different taxa are homologous if they are derived from a common ancestor
+- Similar biological structures or sequences in different taxa are <code>homologous</code> if they are derived from a common ancestor
 - Thus, two sequences are said to be <code>homologous</code>, if they are both derived from a **common ancestral sequence**
 
 #### <b><span style='color:#F1C40F'>How similar are these sequences?</span></b>
