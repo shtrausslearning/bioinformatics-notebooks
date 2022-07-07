@@ -136,7 +136,7 @@ GAGTAGCGTTCCATGTCTAA
 - Similar biological structures or sequences in different taxa are <code>homologous</code> if they are derived from a common ancestor
 - Thus, two sequences are said to be <code>homologous</code>, if they are both derived from a **common ancestral sequence**
 
-#### <b><span style='color:#F1C40F'>How similar are these sequences?</span></b>
+#### How similar are these sequences?
 
 If we wanted to know how **closely they are related**, we could **make some assumptions** about their relation to one another:
 - We are assuming that there exists an ancestry relation between the two sequences, which is based on this <code>sequence similarity</code>
@@ -146,11 +146,7 @@ If we wanted to know how **closely they are related**, we could **make some assu
 - There doesn't seem to exist a point, at which this becomes a certainty & thus requires experimental verification
 - The **higher the degree of similarity**, the more confident we can be that **two sequences are homologous** & thus share similar functions
 
-<div style="color:white;display:fill;border-radius:8px;
-            background-color:#03112A;font-size:150%;
-            letter-spacing:1.0px">
-    <p style="padding: 8px;color:white;"><b><b><span style='color:#F1A424'>1.7 |</span></b> Biological Mutations</b></p>
-</div>
+#### Biological mutations
 
 So what stops us from just placing two sequences next to eachother & comparing them; there exist some factors that do add an extra level of complication to our similarity assumption:
 
@@ -171,3 +167,86 @@ This can happen when the replicating strand "slips," or wrinkles, which allows t
 - <b>Strand slippage</b> can also lead to deletion mutations.
 - A deletion mutation occurs when a wrinkle forms on the DNA template strand and subsequently causes a nucleotide <br>
 to be omitted from the replicated strand. <br>
+
+### 1 | Substitution Matrix
+
+```python
+
+'''
+
+####################################################################
+
+# Substitution Matrix Class
+# Class for storing the substitution matrix, reading & making
+
+# Attributes:
+- abc
+- subm 
+
+# Methods:
+- __getitem__ - obtain the score from the substitution matrix
+- score_pair - obtain the score from the substitution matrix
+- head - show the first few entries in the substitution matrix 
+- read - read a substitution matrix file
+- make - create a simple hit/miss substitution matrix
+
+####################################################################
+
+'''
+
+class SUBM:
+    
+    # Constructor & class operation
+    def __init__(self):
+        self.abc = ""        # characters
+        self.subm = {}       # Substitution matrix mapping
+        
+    # get score pair class operation
+    def __getitem__(self, ij):
+        i,j = ij
+        return self.score_pair(i, j)
+    
+    # get specific score of a pair
+    def score_pair(self,c1,c2):
+        if(c1 not in self.abc or c2 not in self.abc):
+            return None
+        return self.subm[c1+c2]
+    
+    # show first n number of pairs 
+    def head(self,n=5):
+        return list(islice(self.subm.items(),n))
+    
+    # Read Substitution Matrix from file (.mat)
+    # Format includes separation by tabs
+    
+    def read(self,name):
+        
+        # Read the code
+        file = open(name, "r")
+        abc = file.readline().split('\t')
+        
+        self.abc = ""
+        for i in range(0, len(abc)): 
+            self.abc += abc[i][0]
+        for i in range(0,len(abc)):
+            line = file.readline();
+            abc = line.split('\t');
+            for j in range(0, len(abc)):
+                k = self.abc[i]+self.abc[j]
+                self.subm[k] = int(abc[j])
+        file.close()
+        
+    # Create Substitution Matrix
+    # requires match & mismatch score & alphabet
+    # A constant match, mismatch score is used
+    
+    def make(self,code,match,missmatch):
+        self.abc = code
+        for values in itertools.product(code,code):
+            c1 = values[0]; c2 = values[1]
+            if (c1 == c2):
+                self.subm[c1+c2] = match
+            else:
+                self.subm[c1+c2] = missmatch
+
+```
