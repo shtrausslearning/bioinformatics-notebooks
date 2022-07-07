@@ -21,14 +21,14 @@ According to their internal structure, they can be divided into to major categor
 
 #### 1.2 | DNA STRANDS
 
-#### <b><span style='color:#F1C40F'>Complementary Strands</span></b>
+#### Complementary Strands
 
 - DNA is a molecule composed of **two complementary strands** that form and stick together due to the connections established between the nucleotides in both strands
 - This is made possible by due to the chemical phenomenon:
     - Where <code>Adenine (A)</code> bonds only with <code>Thymine (T)</code> nucleotides; as a result of **two hydrogen connections**
-    - Similarly, <code>Guanine (G)</code> bonds only with <code>Cytosine (C)</mark> nucleotides by **three hydrogen connections**
+    - Similarly, <code>Guanine (G)</code> bonds only with <code>Cytosine (C)</code> nucleotides by **three hydrogen connections**
 
-#### <b><span style='color:#F1C40F'>Reverse Complement</span></b>
+#### Reverse Complement
 
 - This results in **two complementary** and **anti-parallel strands** (connected in opposite directions), if we know the nucleotide sequence in one of the strands, we can get the sequence in the opposite strand by taking the complement of its nucleotides, which are also read backwards, thus we have the **reverse complement** of the other strand
 - It has become a **standard to describe the DNA though only one** of the strands, due to this **complementarity** using <b>[A,T,G,C]</b>
