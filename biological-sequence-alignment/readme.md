@@ -51,17 +51,17 @@ According to their internal structure, they can be divided into to major categor
 **<mark style="background-color:#323232;color:white;border-radius:5px;opacity:0.9">ABC (II/II)</mark>** **<mark style="background-color:#F1C40F;color:white;border-radius:5px;opacity:0.9">Amino Acids</mark>**
 
 **<span style='color:#F1C40F'>Amino acids</span>**:
-> The **building blocks of proteins**, which are <b>macromolecules</b> that perform most of the functions inside a cell
+> The **building blocks of proteins**, which are macromolecules that perform most of the functions inside a cell
 
 Proteins have a **broad range of functions**, spanning from **catalytic** to **structural functions**:
 
-> - **<span style='color:#F1C40F'>Enzymes</span>** : Type of abundant proteins that promote chemical reactions & convert some molecules into other types of molecules required for the functioning of the cell
-> - **<span style='color:#F1C40F'>Carbohydrates</span>** : Serve as energy storage, both for immediate and long term energy demands
-> - **<span style='color:#F1C40F'>Lipids</span>** : Part of the plasma membrane, doing signaling and energy storage
+- <code>Enzymes</code> : Type of abundant proteins that promote chemical reactions & convert some molecules into other types of molecules required for the functioning of the cell
+- <code>Carbohydrates</code> : Serve as energy storage, both for immediate and long term energy demands
+- <code>Lipids</code> : Part of the plasma membrane, doing signaling and energy storage
 
 The cell also contains other components of varying complexity. Of importance: 
-> - <b>Mitochondria</b> & the <b>Chloroplasts</b> : Organelles involved in the production of energy. 
-> - <b>Ribosomes</b> : Large and complex molecules composed of a mixture of genetic material, req. to assemble proteins and play a central role in the flow of genetic information
+- <b>Mitochondria</b> & the <b>Chloroplasts</b> : Organelles involved in the production of energy. 
+- <b>Ribosomes</b> : Large and complex molecules composed of a mixture of genetic material, req. to assemble proteins and play a central role in the flow of genetic information
 
 #### 1.4 | BIOLOGICAL SEQUENCES
 
