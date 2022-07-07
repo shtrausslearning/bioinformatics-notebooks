@@ -112,10 +112,10 @@ GHNLQEHSVVLVRGGRVKDLPGVRYHIVRGTLDAVGVKDRQQGRSKYGVKKPK
 
 #### 1.6 | HOMOLOGY & SIMILARITY
 
-- Some key terms in **biological sequence alignment** : <code>Homology<code> & <code>similarity</code>
-- First things first, we have two sequences, **DNA** sequences to be exact (here they are from file **<code>NC_005816.1</code>**):
+- Some key terms in **biological sequence alignment** : <code>Homology</code> & <code>similarity</code>
+- First things first, we have two sequences, **DNA** sequences to be exact (here they are from file <code>NC_005816.1</code>):
 
-#### <b><span style='color:#F1C40F'>Select two sequences</span></b>
+#### Select two sequences**
 
 <code>Sequence #1</code>
 
