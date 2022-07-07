@@ -144,6 +144,7 @@ GAGTAGCGTTCCATGTCTAA
 
 #### <b><span style='color:#F1C40F'>HOW TO TELL IF TWO SEQUENCES ARE HOMOLOGOUS?</span></b>
 
+```
 **<mark style="background-color:#323232;color:white;border-radius:5px;opacity:0.9">HOMOLOGOUS</mark>** | **[Wikipedia](https://en.wikipedia.org/wiki/Homology_(biology))**
 > - Similar biological structures or sequences in different taxa are homologous if they are derived from a common ancestor
 > - Thus, two sequences are said to be **<mark style="background-color:#F1C40F;color:white;border-radius:5px;opacity:0.9">homologous</mark>** if they are both derived from a **<span style='color:#F1C40F'>common ancestral sequence</span>**
@@ -157,3 +158,4 @@ If we wanted to know how **closely they are related**, we could **<span style='c
 > - Two sequences that have a high order of similarity -> have a high probability of being homologous
 > - There doesn't seem to exist a point at which this becomes a certainty & thus requires experimental verification
 > - The **<span style='color:#F1C40F'>higher the degree of similarity</span>**, the more confident we can be that **<span style='color:#F1C40F'>two sequences are homologous</span>** & thus share similar functions
+```
