@@ -36,7 +36,7 @@ According to their internal structure, they can be divided into to major categor
 - It has become a **standard to describe the DNA though only one** of the strands, due to this **complementarity** using <b>[A,T,G,C]</b>
 - The existence of these two strands is essential in order to **pass on genetic information** to new cells and **produce proteins**
 
-#### 1.3 | SEQUENCE ALPHABETSS
+#### 1.3 | SEQUENCE ALPHABETS
 
 **<mark style="background-color:#323232;color:white;border-radius:5px;opacity:0.9">ABC (I/II)</mark>** **<mark style="background-color:#F1C40F;color:white;border-radius:5px;opacity:0.9">Nucleic Acids</mark>**
 
@@ -64,3 +64,23 @@ Proteins have a **broad range of functions**, spanning from **catalytic** to **s
 The cell also contains other components of varying complexity. Of importance: 
 > - <b>Mitochondria</b> & the <b>Chloroplasts</b> : Organelles involved in the production of energy. 
 > - <b>Ribosomes</b> : Large and complex molecules composed of a mixture of genetic material, req. to assemble proteins and play a central role in the flow of genetic information
+
+#### 1.4 | BIOLOGICAL SEQUENCES
+
+- A **<span style='color:#F1C40F'>biological sequence</span>** represents a single, continuous molecules of **<span style='color:#F1C40F'>nucleic acid (nucleotide)</span>** or **<span style='color:#F1C40F'>amino acids</span>**
+- Subsequently we can also **<span style='color:#F1C40F'>compare multiple sequences</span>** based on some form of alignment methodology, so that's what this notebook is about
+    
+**<mark style="background-color:#323232;color:white;border-radius:5px;opacity:0.9">Sequence Alignment Introduction</mark>** | **[Data Mining Trends and Research Frontiers](https://www.sciencedirect.com/topics/computer-science/biological-sequence)**
+
+<div class="alert alert-block alert-info">
+
+- Sequence alignment is based on the fact that all living organisms are related by evolution. <br> 
+- This implies that the nucleotide (DNA, RNA) and protein sequences of species that are closer to each other in evolution should exhibit more similarities. <br>
+    
+- An alignment is the process of lining up sequences to achieve a maximal identity level, which also expresses the degree of similarity between sequences. 
+    
+- Two sequences are homologous if they share a common ancestor. The degree of similarity obtained by sequence alignment can be useful in determining the possibility of homology between two sequences. <br> 
+    
+- Such an alignment also helps determine the relative positions of multiple species in an evolution tree, which is called a phylogenetic tree. <br>
+    
+</div>
