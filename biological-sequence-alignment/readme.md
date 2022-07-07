@@ -67,29 +67,21 @@ The cell also contains other components of varying complexity. Of importance:
 
 #### 1.4 | BIOLOGICAL SEQUENCES
 
-- A **<span style='color:#F1C40F'>biological sequence</span>** represents a single, continuous molecules of **<span style='color:#F1C40F'>nucleic acid (nucleotide)</span>** or **<span style='color:#F1C40F'>amino acids</span>**
-- Subsequently we can also **<span style='color:#F1C40F'>compare multiple sequences</span>** based on some form of alignment methodology, so that's what this notebook is about
+- A **biological sequence** represents a single, continuous molecules of **nucleic acid (nucleotide)** or **amino acids**
+- Subsequently we can also **compare multiple sequences** based on some form of alignment methodology, so that's what this notebook is about
     
-**<mark style="background-color:#323232;color:white;border-radius:5px;opacity:0.9">Sequence Alignment Introduction</mark>** | **[Data Mining Trends and Research Frontiers](https://www.sciencedirect.com/topics/computer-science/biological-sequence)**
-
-<div class="alert alert-block alert-info">
+**<code>Sequence Alignment Introduction</code>** | **[Data Mining Trends and Research Frontiers](https://www.sciencedirect.com/topics/computer-science/biological-sequence)**
 
 - Sequence alignment is based on the fact that all living organisms are related by evolution. <br> 
-- This implies that the nucleotide (DNA, RNA) and protein sequences of species that are closer to each other in evolution should exhibit more similarities. <br>
-    
+- This implies that the nucleotide (DNA, RNA) and protein sequences of species that are closer to each other in evolution should exhibit more similarities.    
 - An alignment is the process of lining up sequences to achieve a maximal identity level, which also expresses the degree of similarity between sequences. 
-    
-- Two sequences are homologous if they share a common ancestor. The degree of similarity obtained by sequence alignment can be useful in determining the possibility of homology between two sequences. <br> 
-    
+- Two sequences are homologous if they share a common ancestor. The degree of similarity obtained by sequence alignment can be useful in determining the possibility of homology between two sequences.
 - Such an alignment also helps determine the relative positions of multiple species in an evolution tree, which is called a phylogenetic tree. <br>
-    
-</div>
 
 #### 1.5 | BIOLOGICAL SEQUENCE EXAMPLES
 
 - In notebook **[Biological Sequence Operations](https://www.kaggle.com/shtrausslearning/biological-sequence-operations)**, we looked at how to read biological sequence files, here are two examples of what they might look like:
-
-- An example of a **<mark style="background-color:#F1C40F;color:white;border-radius:5px;opacity:0.9">Nucleotide</mark>** Sequence:
+- An example of a **<mark style="background-color:#F1C40F;color:white;border-radius:5px;opacity:0.9">Nucleotide</mark>** Sequence <code>NC_005816.1</code>
 
 ```
 ref|NC_005816.1|:4343-4780 pesticin immunity protein [Yersinia pestis biovar Microtus str. 91001]
@@ -115,7 +107,7 @@ GHNLQEHSVVLVRGGRVKDLPGVRYHIVRGTLDAVGVKDRQQGRSKYGVKKPK
 - Some key terms in **biological sequence alignment** : <code>Homology</code> & <code>similarity</code>
 - First things first, we have two sequences, **DNA** sequences to be exact (here they are from file <code>NC_005816.1</code>):
 
-#### Select two sequences**
+#### Select two sequences
 
 <code>Sequence #1</code>
 
