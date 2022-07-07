@@ -145,3 +145,29 @@ If we wanted to know how **closely they are related**, we could **make some assu
 - Two sequences that have a high order of similarity -> have a high probability of being <code>homologous</code>
 - There doesn't seem to exist a point, at which this becomes a certainty & thus requires experimental verification
 - The **higher the degree of similarity**, the more confident we can be that **two sequences are homologous** & thus share similar functions
+
+<div style="color:white;display:fill;border-radius:8px;
+            background-color:#03112A;font-size:150%;
+            letter-spacing:1.0px">
+    <p style="padding: 8px;color:white;"><b><b><span style='color:#F1A424'>1.7 |</span></b> Biological Mutations</b></p>
+</div>
+
+So what stops us from just placing two sequences next to eachother & comparing them; there exist some factors that do add an extra level of complication to our similarity assumption:
+
+- Biological **<mark style="background-color:#F1C40F;color:white;border-radius:5px;opacity:0.9">mutations</mark>** signifcantly complicate the process of what may seem quite a straightforward task
+- **<mark style="background-color:#F1C40F;color:white;border-radius:5px;opacity:0.9">Insertions</mark>** & **<mark style="background-color:#F1C40F;color:white;border-radius:5px;opacity:0.9">deletions</mark>**, as well as **<span style='color:#F1C40F'>changes in multiple nucleotides</span>** due to these mutations can make the comparison of sequences more complex
+
+<code>MUTATIONS</code> | **[GENOME.GOV](https://www.genome.gov/genetics-glossary/Mutation)**
+
+- A <code>mutation</code> is a change in a DNA sequence
+- <code>Mutations</code> can result from DNA copying mistakes made during cell division, exposure to ionizing radiation, exposure to chemicals called mutagens, or infection by viruses
+- Germ line mutations occur in the eggs and sperm and can be passed on to offspring, while somatic mutations occur in body cells and are not passed on
+
+<code>INSERTIONS</code> & <code>DELETIONS</code> | **[NATURE](https://www.nature.com/scitable/topicpage/dna-is-constantly-changing-through-the-process-6524898/)**
+      
+- <code>Insertions</code> and <code>deletions</code> are two other types of mutations that can affect cells at the gene level
+An insertion mutation occurs when an extra nucleotide is added to the DNA strand during replication
+This can happen when the replicating strand "slips," or wrinkles, which allows the extra nucleotide to be incorporated
+- <b>Strand slippage</b> can also lead to deletion mutations.
+- A deletion mutation occurs when a wrinkle forms on the DNA template strand and subsequently causes a nucleotide <br>
+to be omitted from the replicated strand. <br>
