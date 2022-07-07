@@ -87,7 +87,7 @@ The cell also contains other components of varying complexity. Of importance:
 
 #### 1.5 | BIOLOGICAL SEQUENCE EXAMPLES
 
-In notebook **[Biological Sequence Operations](https://www.kaggle.com/shtrausslearning/biological-sequence-operations)**, we looked at how to read biological sequence files, here are two examples of what they might look like:
+- In notebook **[Biological Sequence Operations](https://www.kaggle.com/shtrausslearning/biological-sequence-operations)**, we looked at how to read biological sequence files, here are two examples of what they might look like:
 
 - An example of a **<mark style="background-color:#F1C40F;color:white;border-radius:5px;opacity:0.9">Nucleotide</mark>** Sequence:
 
@@ -109,3 +109,49 @@ gi|7525080|ref|NP_051037.1| ribosomal protein S12 [Arabidopsis thaliana]
 > MPTIKQLIRNTRQPIRNVTKSPALRGCPQRRGTCTRVYTITPKKPNSALRKVARVRLTSGFEITAYIPGI
 GHNLQEHSVVLVRGGRVKDLPGVRYHIVRGTLDAVGVKDRQQGRSKYGVKKPK
 ```
+
+#### 1.6 | HOMOLOGY & SIMILARITY
+
+- Some key terms in **biological sequence alignment** : **<mark style="background-color:#F1C40F;color:white;border-radius:5px;opacity:0.9">Homology</mark>** & **<mark style="background-color:#F1C40F;color:white;border-radius:5px;opacity:0.9">Similarity</mark>**, we probably want to familiarise ourselves with them first
+
+
+First things first, we have two sequences, **<span style='color:#F1C40F'>DNA</span>** sequences to be exact (here they are from file **<span style='color:#F1C40F'>NC_005816.1</span>**):
+
+#### <b><span style='color:#F1C40F'>SELECT TWO SEQUENCES</span></b>
+
+**<mark style="background-color:#323232;color:white;border-radius:5px;opacity:0.9">Sequence #1</mark>**
+
+ref|NC_005816.1|:c8360-8088 hypothetical protein YP_pPCP10 [Yersinia pestis biovar Microtus str. 91001]
+
+> TTGGCTGATTTGAAAAAGCTACAGGTTTACGGACCTGAGTTACCCAGGCCATATGCCGATACCGTGAAAG
+GTTCTCGGTACAAAAATATGAAAGAGCTTCGCGTTCAGTTTTCTGGCCGTCCGATAAGAGCCTTTTATGC
+GTTCGATCCGATTCGTCGGGCTATCGTTCTTTGTGCAGGAGATAAAAGTAATGATAAGCGGTTTTATGAA
+AAACTGGTGCGTATAGCTGAGGATGAATTTACAGCACATCTGAACACACTGGAGAGCAAGTAA
+
+**<mark style="background-color:#323232;color:white;border-radius:5px;opacity:0.9">Sequence #2</mark>**
+
+```
+ref|NC_005816.1|:c8088-7789 putative transcriptional regulator [Yersinia pestis biovar Microtus str. 91001]
+
+> ATGAGAACATTAGATGAGGTGATTGCCAGTCGTTCACCTGAAAGCCAGACACGAATTAAAGAAATGGCAG
+ATGAGATGATTCTTGAGGTCGGCTTGCAGATGATGCGTGAAGAACTCCAGTTATCACAAAAACAAGTTGC
+TGAGGCGATGGGTATAAGCCAGCCAGCAGTAACAAAGCTGGAGCAGCGCGGAAATGATTTAAAGCTGGCG
+ACGTTAAAGCGTTACGTTGAAGCAATGGGAGGCAAATTAAGCTTGGATGTTGAGCTTCCTACAGGAAGGA
+GAGTAGCGTTCCATGTCTAA
+```
+
+#### <b><span style='color:#F1C40F'>HOW TO TELL IF TWO SEQUENCES ARE HOMOLOGOUS?</span></b>
+
+**<mark style="background-color:#323232;color:white;border-radius:5px;opacity:0.9">HOMOLOGOUS</mark>** | **[Wikipedia](https://en.wikipedia.org/wiki/Homology_(biology)**
+> - Similar biological structures or sequences in different taxa are homologous if they are derived from a common ancestor
+> - Thus, two sequences are said to be **<mark style="background-color:#F1C40F;color:white;border-radius:5px;opacity:0.9">homologous</mark>** if they are both derived from a **<span style='color:#F1C40F'>common ancestral sequence</span>**
+
+#### <b><span style='color:#F1C40F'>HOW SIMILAR ARE THESE SEQUENCES?</span></b>
+
+If we wanted to know how **closely they are related**, we could **<span style='color:#F1C40F'>make some assumptions</span>** about their relation to one another:
+> - We are assuming that there exists an ancestry relation between the two sequences, which is based on this **<mark style="background-color:#F1C40F;color:white;border-radius:5px;opacity:0.9">sequence similarity</mark>**
+> - We can **<span style='color:#F1C40F'>generate a hypothesis</span>** about the biological function of a sequence we are exploring, based on its **<span style='color:#F1C40F'>similarity to another sequence</span>**, which already has a determined function
+> - Sequences that display a significant **<span style='color:#F1C40F'>degree of similarity</span>** have a high probability of being **<span style='color:#F1C40F'>homologous</span>** and **<span style='color:#F1C40F'>sharing similar functions</span>**
+> - Two sequences that have a high order of similarity -> have a high probability of being homologous
+> - There doesn't seem to exist a point at which this becomes a certainty & thus requires experimental verification
+> - The **<span style='color:#F1C40F'>higher the degree of similarity</span>**, the more confident we can be that **<span style='color:#F1C40F'>two sequences are homologous</span>** & thus share similar functions
