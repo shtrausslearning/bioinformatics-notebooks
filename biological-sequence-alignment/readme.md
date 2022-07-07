@@ -121,12 +121,14 @@ First things first, we have two sequences, **<span style='color:#F1C40F'>DNA</sp
 
 **<mark style="background-color:#323232;color:white;border-radius:5px;opacity:0.9">Sequence #1</mark>**
 
+```
 ref|NC_005816.1|:c8360-8088 hypothetical protein YP_pPCP10 [Yersinia pestis biovar Microtus str. 91001]
 
 > TTGGCTGATTTGAAAAAGCTACAGGTTTACGGACCTGAGTTACCCAGGCCATATGCCGATACCGTGAAAG
 GTTCTCGGTACAAAAATATGAAAGAGCTTCGCGTTCAGTTTTCTGGCCGTCCGATAAGAGCCTTTTATGC
 GTTCGATCCGATTCGTCGGGCTATCGTTCTTTGTGCAGGAGATAAAAGTAATGATAAGCGGTTTTATGAA
 AAACTGGTGCGTATAGCTGAGGATGAATTTACAGCACATCTGAACACACTGGAGAGCAAGTAA
+```
 
 **<mark style="background-color:#323232;color:white;border-radius:5px;opacity:0.9">Sequence #2</mark>**
 
@@ -142,7 +144,7 @@ GAGTAGCGTTCCATGTCTAA
 
 #### <b><span style='color:#F1C40F'>HOW TO TELL IF TWO SEQUENCES ARE HOMOLOGOUS?</span></b>
 
-**<mark style="background-color:#323232;color:white;border-radius:5px;opacity:0.9">HOMOLOGOUS</mark>** | **[Wikipedia](https://en.wikipedia.org/wiki/Homology_(biology)**
+**<mark style="background-color:#323232;color:white;border-radius:5px;opacity:0.9">HOMOLOGOUS</mark>** | **[Wikipedia](https://en.wikipedia.org/wiki/Homology_(biology))**
 > - Similar biological structures or sequences in different taxa are homologous if they are derived from a common ancestor
 > - Thus, two sequences are said to be **<mark style="background-color:#F1C40F;color:white;border-radius:5px;opacity:0.9">homologous</mark>** if they are both derived from a **<span style='color:#F1C40F'>common ancestral sequence</span>**
 
