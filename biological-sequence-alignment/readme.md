@@ -70,16 +70,16 @@ The cell also contains other components of varying complexity. Of importance:
     
 **<code>Sequence Alignment Introduction</code>** | **[Data Mining Trends and Research Frontiers](https://www.sciencedirect.com/topics/computer-science/biological-sequence)**
 
-- Sequence alignment is based on the fact that all living organisms are related by evolution. <br> 
-- This implies that the nucleotide (DNA, RNA) and protein sequences of species that are closer to each other in evolution should exhibit more similarities.    
-- An alignment is the process of lining up sequences to achieve a maximal identity level, which also expresses the degree of similarity between sequences. 
-- Two sequences are homologous if they share a common ancestor. The degree of similarity obtained by sequence alignment can be useful in determining the possibility of homology between two sequences.
-- Such an alignment also helps determine the relative positions of multiple species in an evolution tree, which is called a phylogenetic tree. <br>
+- Sequence alignment is based on the fact that all living organisms are related by evolution 
+- This implies that the nucleotide (DNA, RNA) and protein sequences of species that are closer to each other in evolution should exhibit more similarities    
+- An alignment is the process of lining up sequences to achieve a maximal identity level, which also expresses the degree of similarity between sequences
+- Two sequences are homologous if they share a common ancestor. The **degree of similarity** obtained by sequence alignment can be useful in determining the possibility of homology between two sequences
+- Such an alignment also helps determine the relative positions of multiple species in an evolution tree, which is called a <code>phylogenetic</code> tree
 
 #### 1.5 | BIOLOGICAL SEQUENCE EXAMPLES
 
 - In notebook **[Biological Sequence Operations](https://www.kaggle.com/shtrausslearning/biological-sequence-operations)**, we looked at how to read biological sequence files, here are two examples of what they might look like:
-- An example of a **<mark style="background-color:#F1C40F;color:white;border-radius:5px;opacity:0.9">Nucleotide</mark>** Sequence <code>NC_005816.1</code>
+    - An example of a <code>Nucleotide</code> Sequence <code>NC_005816.1</code>
 
 ```
 ref|NC_005816.1|:4343-4780 pesticin immunity protein [Yersinia pestis biovar Microtus str. 91001]
@@ -103,7 +103,7 @@ GHNLQEHSVVLVRGGRVKDLPGVRYHIVRGTLDAVGVKDRQQGRSKYGVKKPK
 #### 1.6 | HOMOLOGY & SIMILARITY
 
 - Some key terms in **biological sequence alignment** : <code>Homology</code> & <code>similarity</code>
-- First things first, we have two sequences, **DNA** sequences to be exact (here they are from file <code>NC_005816.1</code>):
+- First things first, we have two sequences, <code>DNA</code> sequences to be exact (here they are from file <code>NC_005816.1</code>):
 
 #### Select two sequences
 
